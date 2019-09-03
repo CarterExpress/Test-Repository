@@ -3,8 +3,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 --exec [dbo].[up_get_fuelRate] 'xg440','1752544'
 CREATE proc [dbo].[up_get_fuelRate]
-@Billto varchar(20),
-@orderbillto varchar(20)
+@Billto varchar(30),
+@orderbillto varchar(30)
 as
 
 declare @reorderBillto varchar(20)
