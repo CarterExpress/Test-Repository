@@ -8,9 +8,9 @@ GO
 -- =============================================
 CREATE PROCEDURE [dbo].[up_Get_FuelRate_New] 
 	-- Add the parameters for the stored procedure here
-@Billto VARCHAR(20),
+@Billto VARCHAR(30),
 	@ShipDate DATETIME,
-	@MasterOrderNumber VARCHAR(20)
+	@MasterOrderNumber VARCHAR(50)
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
