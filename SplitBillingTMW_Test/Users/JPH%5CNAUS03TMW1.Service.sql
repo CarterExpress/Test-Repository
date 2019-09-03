@@ -1,0 +1,4 @@
+CREATE USER [JPH\NAUS03TMW1.Service]
+	FOR LOGIN [JPH\naus03tmw1.service]
+	WITH DEFAULT_SCHEMA = [dbo]
+GO
